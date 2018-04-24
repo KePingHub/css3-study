@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>border-image</title>
+  <style>
+    .border-image {
+      width: 100px;
+      height: 100px;
+      border: 15px solid red;
+      border-image: url("http://img.mukewang.com/52e22a1c0001406e03040221.jpg") 15 15 15 15 repeat;
+      /*              图片路径               切割图片的宽度，顺时针分别设置，简写为15    图片延伸方式 round平铺 repeat重复 stretch 拉伸*/
+    }
+  </style>
+</head>
+<body>
+  <div class="border-image"></div>
+</body>
+</html>

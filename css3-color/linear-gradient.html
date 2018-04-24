@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>linear-gradient</title>
+  <style>
+    p {
+      width: 400px;
+      height: 150px;
+      line-height: 150px;
+      text-align:center;
+      color: #000;
+      font-size:24px;
+    }
+    .to-top {
+      background-image: linear-gradient(to top, red, green, blue);
+      /*background-image: linear-gradient(0deg, red, green, blue);*/
+      /*效果同上*/
+    }
+    .to-bottom {
+      background-image: linear-gradient(to bottom, red, green, blue);
+      /*background-image: linear-gradient(180deg, red, green, blue);*/
+      /*效果同上*/
+    }
+    .to-left {
+      background-image: linear-gradient(to left, red, green, blue);
+      /*background-image: linear-gradient(270deg, red, green, blue);*/
+      /*效果同上*/
+    }
+    .to-right {
+      background-image: linear-gradient(to right, red, green, blue);
+      /*background-image: linear-gradient(90deg, red, green, blue);*/
+      /*效果同上*/
+    }
+    .to-top-left {
+      background-image: linear-gradient(to top left, red, green, blue);
+    }
+    .to-top-right {
+      background-image: linear-gradient(to top right, red, green, blue);
+    }
+  </style>
+</head>
+<body>
+  <p class="to-top">下向上的线性渐变背景</p>
+  <p class="to-bottom">上向下的线性渐变背景</p>
+  <p class="to-left">右向左的线性渐变背景</p>
+  <p class="to-right">左向右的线性渐变背景</p>
+  <p class="to-top-left">右下角向左上角的线性渐变背景</p>
+  <p class="to-top-right">左下角向右上角的线性渐变背景</p>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>border-radius</title>
+  <style>
+    .circle {
+      width: 100px;
+      height: 100px;
+      background-color: #9da;
+      border-radius: 50px;
+    /*相当于同时设置上左，上右，下右，下左的边框圆角的半径都为50px，不可为负值 如下*/
+      /*border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-left-radius: 50px;*/
+    }
+    .sim-circle {
+      width: 50px;
+      height: 100px;
+      background-color: #9da;
+      border-radius: 50px 0 0 50px;
+    }
+
+    .man{
+      width: 50px;
+      height: 50px;
+      margin: 0 auto;
+      background-color: lightgrey;
+      border-radius: 50%;
+      position: relative;
+    }
+    .man::after {
+      content: '';
+      width: 80px;
+      height: 30px;
+      /*上左水平半径 上右水平半径 下右水平半径 下左水平半径/上左垂直半径 上右垂直半径 下右垂直半径 下左垂直半径*/
+      border-radius: 20px 20px 0 0/22px 22px 0 0;
+      background-color: lightgrey;
+      position: absolute;
+      top: 55px;
+      left: -15px;
+    }
+
+  </style>
+</head>
+<body>
+<!--圆-->
+  <div class="circle"></div>
+<!--左半圆-->
+  <div class="sim-circle"></div>
+
+<!--man-->
+  <div class="man"></div>
+
+</body>
+</html>

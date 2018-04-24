@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>navbar</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    body {
+      background-color: #ebebeb;
+    }
+    .nav-bar {
+      margin-top: 50px;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: stretch;
+    }
+    .nav-list {
+      list-style: none;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: stretch;
+      height: 50px;
+      width: 560px;
+      font: bold 13px/50px Arial;
+      background-color: #f65f57;
+      border-radius: 10px;
+      box-shadow: 2px 3px 5px 2px #B54B41;
+    }
+    .list-item {
+      position: relative;
+    }
+    .list-item::after {
+      content: '|';
+      position: absolute;
+      right: 0;
+      top: 0;
+      color: lightgrey;
+    }
+    .list-item:last-child::after {
+      content: ''
+    }
+    .list-item > a {
+      padding: 0 10px;
+      display: inline-block;
+      height: 100%;
+      color: #FFF;
+      text-decoration: none;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+      transition: .2s ease-in;
+    }
+    .list-item > a:hover {
+      transform: rotate(10deg);
+    }
+  </style>
+</head>
+<body>
+  <div class="nav-bar">
+    <ul class="nav-list">
+      <li class="list-item"><a href="#">Home</a></li>
+      <li class="list-item"><a href="#">About Me</a></li>
+      <li class="list-item"><a href="#">Portfolio</a></li>
+      <li class="list-item"><a href="#">Blog</a></li>
+      <li class="list-item"><a href="#">Resources</a></li>
+      <li class="list-item"><a href="#">Contact Me</a></li>
+    </ul>
+  </div>
+</body>
+</html>

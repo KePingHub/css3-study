@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>background-clip</title>
+  <style>
+    div {
+      width: 200px;
+      height: 200px;
+      padding: 40px;
+      border: 10px solid transparent;
+      background: linear-gradient(to bottom, red, orange, yellow, green, cyan, blue, purple) no-repeat;
+      background-origin: border-box;
+      background-clip: content-box;
+    }
+    /*
+      background-clip   用来将背景图片做适当的裁剪以适应实际需要。
+
+      语法：
+          background-clip ： border-box | padding-box | content-box
+        参数分别表示从边框、或内填充，或者内容区域向外裁剪背景。backgroud-clip默认值为border-box。
+
+    */
+  </style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>box-shadow</title>
+  <style>
+    div {
+      width: 100px;
+      height: 100px;
+      margin: 10px auto;
+    }
+    .inset {
+      /*box-shadow: X轴偏移量 Y轴偏移量 [阴影模糊半径] [阴影扩展半径] [阴影颜色] [投影方式];*/
+      /*             允许负值 允许负值   可选              可选         默认黑色    默认外阴影 inset内阴影 可以现在参数第一个或者最后 其他位置无效*/
+      box-shadow: 8px 3px 6px 2px #666 inset;
+    }
+    .outset {
+      /*box-shadow: 3px 2px 6px 2px #666 outset;*/
+      /*外阴影不需要设置 设置outset样式不生效 不填就是外阴影*/
+      box-shadow: 3px 2px 6px 2px #666;
+    }
+
+    .multiple {
+      width: 100px;
+      height: 100px;
+      margin-top: 50px;
+      background-color: lightgrey;
+      /*一次多个阴影 前面的覆盖后面的*/
+      box-shadow: -10px -10px 0 10px #bfa,
+                  10px 10px 0 10px red,
+                  0 0 0 20px green;
+    }
+  </style>
+</head>
+<body>
+  <div class="inset"></div>
+
+  <div class="outset"></div>
+
+  <div class="multiple"></div>
+</body>
+</html>

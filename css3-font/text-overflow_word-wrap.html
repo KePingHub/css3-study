@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    div {
+      text-overflow: ellipsis;
+      /*文本溢出： clip表示剪切  ellipsis表示显示省略标记(要实现溢出产生省略号必须 强制文本在一行内显示（white-space: nowrap）和 溢出内容为隐藏(overflow:hidden))*/
+
+      white-space: nowrap;
+      /*强制文本一行内显示*/
+
+      overflow: hidden;
+      /*溢出内容隐藏*/
+
+      width: 200px;
+      background: #baf;
+    }
+
+    p {
+      width: 200px;
+      background: #baf;
+      word-wrap: break-word;
+      /*超过容器边界是否换行（不常用）： break-word在单词或者url地址过长会换行 默认为normal表示控制连续文本换行*/
+    }
+  </style>
+</head>
+<body>
+  <div>abcdefghilsdafj;laskdjfl;sakjdflkjasdl;fjasdf(超出省略号)</div>
+  <p>(单词过长换行)asdfasdfsadfasdfasdfasdf sdfsd fadasdfasdfasdfasdf</p>
+</body>
+</html>
