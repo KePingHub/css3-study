@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/07_css3-exrcise-toggle bg-img/toggle bgImg.html" line="241" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="85e1ba17-38bb-46da-b6ee-5468758736c6" name="Default" comment="" />
+    <list default="true" id="85e1ba17-38bb-46da-b6ee-5468758736c6" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/06_css3-selector/02attr-selector.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3-background/background-clip.html" beforeDir="false" afterPath="$PROJECT_DIR$/03_css3-background/background-clip.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3-background/background-origin.html" beforeDir="false" afterPath="$PROJECT_DIR$/03_css3-background/background-origin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3-background/background-size.html" beforeDir="false" afterPath="$PROJECT_DIR$/03_css3-background/background-size.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3-background/multiple_backgrounds.html" beforeDir="false" afterPath="$PROJECT_DIR$/03_css3-background/multiple_backgrounds.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3-border/border-image.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_css3-border/border-image.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3-border/border-radius.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_css3-border/border-radius.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3-border/box-shadow.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_css3-border/box-shadow.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3-color/linear-gradient.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_css3-color/linear-gradient.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3-color/rgba.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_css3-color/rgba.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3-execise-make nav-menu-bar/nav-bar.html" beforeDir="false" afterPath="$PROJECT_DIR$/05_css3-execise-make nav-menu-bar/nav-bar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3-font/@font-face.html" beforeDir="false" afterPath="$PROJECT_DIR$/04_css3-font/@font-face.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3-font/myfont.otf" beforeDir="false" afterPath="$PROJECT_DIR$/04_css3-font/myfont.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3-font/text-overflow_word-wrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/04_css3-font/text-overflow_word-wrap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3-font/text-shadow.html" beforeDir="false" afterPath="$PROJECT_DIR$/04_css3-font/text-shadow.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,66 +33,97 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="background-origin.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css3-background/background-origin.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="toggle bgImg.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07_css3-exrcise-toggle bg-img/toggle bgImg.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="91" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="91" />
+            <state relative-caret-position="352">
+              <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+              <folding>
+                <element signature="e#260#265#0" expanded="true" />
+                <element signature="e#381#386#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="background-clip.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css3-background/background-clip.html">
+      <file leaf-file-name="01rotate().html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/08_css3-deformation and animation/transform/01rotate().html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="91" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="91" />
+            <state relative-caret-position="208">
+              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="background-size.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css3-background/background-size.html">
+      <file leaf-file-name="02skew().html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/08_css3-deformation and animation/transform/02skew().html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="194">
+              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="multiple_backgrounds.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css3-background/multiple_backgrounds.html">
+      <file leaf-file-name="03scale().html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/08_css3-deformation and animation/transform/03scale().html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+            <state relative-caret-position="416">
+              <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nav-bar.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css3-execise-make nav-menu-bar/nav-bar.html">
+      <file leaf-file-name="04translate().html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/08_css3-deformation and animation/transform/04translate().html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="224">
+              <caret line="14" column="62" lean-forward="true" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="text-shadow.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css3-font/text-shadow.html">
+      <file leaf-file-name="05matrix().html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/08_css3-deformation and animation/transform/05matrix().html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            <state relative-caret-position="64">
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="border-image.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css3-border/border-image.html">
+      <file leaf-file-name="05target-selector.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06_css3-selector/05target-selector.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="77" />
+            <state relative-caret-position="394">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="06first-child.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06_css3-selector/06first-child.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="08nth-child(n).html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06_css3-selector/08nth-child(n).html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="10first-of-type.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06_css3-selector/10first-of-type.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -85,6 +136,14 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>'</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -102,6 +161,37 @@
         <option value="$PROJECT_DIR$/css3-background/background-size.html" />
         <option value="$PROJECT_DIR$/css3-background/multiple_backgrounds.html" />
         <option value="$PROJECT_DIR$/css3-execise-make nav-menu-bar/nav-bar.html" />
+        <option value="$PROJECT_DIR$/css3-selector/attr-selector.html" />
+        <option value="$PROJECT_DIR$/css3-selector/structural_pseudoClass_selector.html" />
+        <option value="$PROJECT_DIR$/css3-selector/structural_pseudoClass_selector--root.html" />
+        <option value="$PROJECT_DIR$/css3-selector/not-selector.html" />
+        <option value="$PROJECT_DIR$/css3-selector/empty-selector.html" />
+        <option value="$PROJECT_DIR$/css3-selector/target-selector.html" />
+        <option value="$PROJECT_DIR$/css3-selector/first-child.html" />
+        <option value="$PROJECT_DIR$/css3-selector/last-child.html" />
+        <option value="$PROJECT_DIR$/css3-selector/nth-child.html" />
+        <option value="$PROJECT_DIR$/css3-selector/nth-last-child.html" />
+        <option value="$PROJECT_DIR$/css3-selector/first-of-type.html" />
+        <option value="$PROJECT_DIR$/06_css3-selector/10first-of-type.html" />
+        <option value="$PROJECT_DIR$/06_css3-selector/11nth-of-type(n).html" />
+        <option value="$PROJECT_DIR$/06_css3-selector/12last-of-type.html" />
+        <option value="$PROJECT_DIR$/06_css3-selector/13nth-last-of-type(n).html" />
+        <option value="$PROJECT_DIR$/06_css3-selector/14only-child.html" />
+        <option value="$PROJECT_DIR$/06_css3-selector/15only-of-type.html" />
+        <option value="$PROJECT_DIR$/06_css3-selector/16enabled.html" />
+        <option value="$PROJECT_DIR$/06_css3-selector/17disabled.html" />
+        <option value="$PROJECT_DIR$/06_css3-selector/19selection.html" />
+        <option value="$PROJECT_DIR$/06_css3-selector/20read-only.html" />
+        <option value="$PROJECT_DIR$/06_css3-selector/18checked.html" />
+        <option value="$PROJECT_DIR$/06_css3-selector/21read-write.html" />
+        <option value="$PROJECT_DIR$/06_css3-selector/22before_and_after.html" />
+        <option value="$PROJECT_DIR$/07_css3-exrcise-toggle bg-img/toggle bgImg.html" />
+        <option value="$PROJECT_DIR$/08_css3-deformation and animation/01rotate.html" />
+        <option value="$PROJECT_DIR$/08_css3-deformation and animation/02skew().html" />
+        <option value="$PROJECT_DIR$/08_css3-deformation and animation/transform/02skew().html" />
+        <option value="$PROJECT_DIR$/08_css3-deformation and animation/transform/03scale().html" />
+        <option value="$PROJECT_DIR$/08_css3-deformation and animation/transform/04translate().html" />
+        <option value="$PROJECT_DIR$/08_css3-deformation and animation/transform/05matrix().html" />
       </list>
     </option>
   </component>
@@ -123,11 +213,15 @@
     <option name="width" value="1152" />
     <option name="height" value="712" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,11 +229,21 @@
               <item name="css3-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="css3-study" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="css3-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="css3-study" type="462c0819:PsiDirectoryNode" />
+              <item name="08_css3-deformation and animation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="css3-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="css3-study" type="462c0819:PsiDirectoryNode" />
+              <item name="08_css3-deformation and animation" type="462c0819:PsiDirectoryNode" />
+              <item name="transform" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -159,6 +263,9 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\KEPING\WebstormProjects\css3-study\08_css3-deformation and animation\transform" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\KEPING\WebstormProjects\css3-study\css3-font" />
     </key>
@@ -186,30 +293,32 @@
       <option name="presentableId" value="Default" />
       <updated>1524572936179</updated>
       <workItem from="1524572938197" duration="21908000" />
+      <workItem from="1524680437855" duration="21463000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21908000" />
+    <option name="totallyTimeSpent" value="43371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="750" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20684524" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
@@ -221,94 +330,343 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css3-font/@font-face.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css3-font/text-overflow_word-wrap.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css3-color/linear-gradient.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css3-color/rgba.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css3-border/box-shadow.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css3-border/border-radius.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13">
-          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css3-background/background-origin.html">
+    <entry file="file://$PROJECT_DIR$/03_css3-background/background-origin.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="11" column="91" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="91" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css3-background/background-clip.html">
+    <entry file="file://$PROJECT_DIR$/03_css3-background/background-clip.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="11" column="91" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="91" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css3-border/border-image.html">
+    <entry file="file://$PROJECT_DIR$/03_css3-background/background-size.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css3-background/background-size.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="320">
           <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css3-background/multiple_backgrounds.html">
+    <entry file="file://$PROJECT_DIR$/03_css3-background/multiple_backgrounds.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
+        <state relative-caret-position="656">
           <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css3-font/text-shadow.html">
+    <entry file="file://$PROJECT_DIR$/04_css3-font/text-shadow.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css3-execise-make nav-menu-bar/nav-bar.html">
+    <entry file="file://$PROJECT_DIR$/01_css3-border/border-image.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_css3-execise-make nav-menu-bar/nav-bar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_css3-font/@font-face.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_css3-font/text-overflow_word-wrap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_css3-color/linear-gradient.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_css3-color/rgba.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_css3-border/border-radius.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_css3-background/background-origin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="91" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_css3-background/background-clip.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="91" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_css3-background/background-size.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_css3-background/multiple_backgrounds.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_css3-execise-make nav-menu-bar/nav-bar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_css3-selector/02attr-selector.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_css3-selector/01structural_pseudoClass_selector--root.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_css3-selector/03not-selector.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_css3-selector/04empty-selector.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_css3-font/text-shadow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_css3-border/border-image.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_css3-selector/09nth-last-child(n).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_css3-selector/07last-child.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_css3-selector/11nth-of-type(n).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="69" lean-forward="true" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_css3-selector/12last-of-type.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_css3-selector/13nth-last-of-type(n).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_css3-selector/14only-child.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_css3-selector/15only-of-type.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_css3-border/box-shadow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_css3-selector/16enabled.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="29" lean-forward="true" selection-end-line="34" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_css3-selector/17disabled.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_css3-selector/18checked.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="58" column="17" lean-forward="true" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_css3-selector/19selection.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_css3-selector/20read-only.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="47" column="6" lean-forward="true" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_css3-selector/21read-write.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_css3-selector/22before_and_after.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="54" column="27" lean-forward="true" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_css3-selector/08nth-child(n).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_css3-selector/06first-child.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_css3-selector/05target-selector.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_css3-selector/10first-of-type.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07_css3-exrcise-toggle bg-img/toggle bgImg.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+          <folding>
+            <element signature="e#260#265#0" expanded="true" />
+            <element signature="e#381#386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_css3-deformation and animation/transform/01rotate().html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_css3-deformation and animation/transform/05matrix().html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_css3-deformation and animation/transform/02skew().html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_css3-deformation and animation/transform/03scale().html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_css3-deformation and animation/transform/04translate().html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="62" lean-forward="true" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
         </state>
       </provider>
     </entry>

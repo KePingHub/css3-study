@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>only-of-type</title>
+  <style>
+    /*
+        :only-of-type 选择器用来选择一个元素是它的父元素的唯一一个相同类型的子元素。这样说或许不太好理解，
+                      换一种说法。“:only-of-type”是表示一个元素他有很多个子元素，而其中只有一种类型的子
+                      元素是唯一的，使用“:only-of-type”选择器就可以选中这个元素中的唯一一个类型子元素。
+    */
+
+    /*将仅有一个P元素的背景修改为橙色。*/
+    .wrapper > p:only-of-type {
+      background-color: orange;
+    }
+  </style>
+</head>
+<body>
+<div class="wrapper">
+  <p>我是一个段落</p>
+  <p>我是一个段落</p>
+  <p>我是一个段落</p>
+</div>
+
+<div class="wrapper">
+  <p>我是一个段落</p>
+</div>
+
+<div class="wrapper">
+  <div>我是一个Div元素</div>
+  <p>我是一个段落</p>
+  <div>我是一个Div元素</div>
+</div>
+</body>
+</html>

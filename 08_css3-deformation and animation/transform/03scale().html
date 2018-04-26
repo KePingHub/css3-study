@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>scale()</title>
+  <style>
+    .wrapper {
+      width: 200px;
+      height: 200px;
+      border:2px dashed red;
+      margin: 100px auto;
+    }
+    .wrapper div {
+      width: 200px;
+      height: 200px;
+      line-height: 200px;
+      background: orange;
+      text-align: center;
+      color: #fff;
+    }
+
+    /*
+      缩放 scale()函数 让元素根据中心原点对对象进行缩放
+
+      缩放 scale 具有三种情况：
+
+       1、 scale(X,Y)使元素水平方向和垂直方向同时缩放（也就是X轴和Y轴同时缩放）
+           注意：Y是一个可选参数，如果没有设置Y值，则表示X，Y两个方向的缩放倍数是一样的。
+
+       2、scaleX(x)元素仅水平方向缩放（X轴缩放）
+
+       3、scaleY(y)元素仅垂直方向缩放（Y轴缩放）
+    */
+
+    /*让容器的鼠标滑过时的状态缩小0.8。*/
+    .wrapper div:hover {
+      opacity: 0.5;
+      -webkit-transform: scale(0.8);
+      -moz-transform: scale(0.8);
+      -ms-transform: scale(0.8);
+      -o-transform: scale(0.8);
+      transform: scale(0.8);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div>我将缩小0.8</div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>结构伪类选择器——last-child</title>
+  <style>
+    /*
+      :last-child  选择器与“:first-child”选择器作用类似，不同的是“:last-child”选择器选择的是元素的最后一个子元素。
+    */
+
+    /*删除列表中最后一个列表项的底部边框。*/
+    ul > li {
+      border-bottom: 3px solid red;
+    }
+    ul > li:last-child {
+      border-bottom: none;
+    }
+  </style>
+</head>
+<body>
+<ul>
+  <li>Item1</li>
+  <li>Item2</li>
+  <li>Item3</li>
+  <li>Item5</li>
+  <li>Item6</li>
+</ul>
+</body>
+</html>

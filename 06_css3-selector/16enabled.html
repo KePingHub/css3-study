@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>:enabled选择器</title>
+  <style>
+    /*
+      在Web的表单中，有些表单元素有可用（“:enabled”）和不可用（“:disabled”）状态，
+      比如输入框，密码框，复选框等。在默认情况之下，这些表单元素都处在可用状态。那
+      么我们可以通过伪选择器“:enabled”对这些表单元素设置样式。
+    */
+
+    /*可用输入框设置一个#f36颜色的边框以及5px的阴影色。*/
+    input:enabled {
+      border: 1px solid #f36;
+      box-shadow: 0 0 5px #f36;
+    }
+  </style>
+</head>
+<body>
+<form action="#">
+
+  <div>
+    <label for="enabled">可用输入框:</label>
+    <input type="text" id="enabled" />
+  </div>
+
+  <div>
+    <label for="disabled">禁用输入框:</label>
+    <input type="text" id="disabled" disabled="disabled" />
+  </div>
+
+</form>
+</body>
+</html>

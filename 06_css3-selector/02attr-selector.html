@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>属性选择器</title>
+  <style>
+    /*
+      属性选择器
+      在CSS2中引入了一些属性选择器，而CSS3在CSS2的基础上对属性选择器进行了扩展，新增了3个属性选择器，
+      使得属性选择器有了通配符的概念，这三个属性选择器与CSS2的属性选择器共同构成了CSS功能强大的属性选择器。
+
+      E[attr^="val"] 选择匹配元素E，且E元素定义了属性attr,其属性以val开头的任何字符串
+      E[attr$="val"] 选择以属性attr且值以val字符串结尾的的E元素
+      E[attr*="val"] 选择以属性attr且值包含val字符串的E元素
+    */
+    a {
+      color: #FFF;
+    }
+    a[class^="column"] {
+      background-color: red;
+    }
+    a[href$="doc"] {
+      background-color: green;
+    }
+    a[title*="box"] {
+      background-color: blue;
+    }
+  </style>
+</head>
+<body>
+  <a href="##" class="columnNews">我的背景想变成红色</a>
+  <a href="##" class="columnVideo">我的背景想变成红色</a>
+  <a href="##" class="columnAboutUs">我的背景想变成红色</a><br/>
+  <a href="1.doc">我的背景想变成绿色</a>
+  <a href="2.doc">我的背景想变成绿色</a><br/>
+  <a href="##" title="this is a box">我的背景想变成蓝色</a>
+  <a href="##" title="box1">我的背景想变成蓝色</a>
+  <a href="##" title="there is two boxs">我的背景想变成蓝色</a>
+</body>
+</html>

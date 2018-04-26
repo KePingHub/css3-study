@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>结构性伪类选择器 :not</title>
+  <style>
+    /* :not选择器称为否定选择器，和jQuery中的:not选择器一模一样，
+        可以选择除某个元素之外的所有元素。就拿form元素来说，比如说
+        你想给表单中除submit按钮之外的input元素添加红色边框，CSS代码可以写成：
+
+        input:not([type="submit"]){
+          border:1px solid red;
+        }
+    */
+    div {
+      height: 200px;
+    }
+    /*除页脚”div#footer”之外的所有div设置橙色背景色。div:not(#footer)权值101  div:not(.head) 权值100*/
+    div:not(#footer) {
+      background-color: orange;
+    }
+
+    div:not(.foot) {
+      background-color: red;
+    }
+
+  </style>
+</head>
+<body>
+  <div id="header">页头</div>
+  <div id="page">页体</div>
+  <div class="foot" id="footer">页脚</div>
+</body>
+</html>

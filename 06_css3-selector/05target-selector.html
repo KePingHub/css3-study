@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>结构性伪类选择器—target</title>
+  <style>
+    /*
+      :target 选择器称为目标选择器，用来匹配文档(页面)的url的某个标志符的目标元素。
+
+      html:
+            <h2><a href="#brand">Brand</a></h2>
+            <div class="menuSection" id="brand">
+                content for Brand
+            </div>
+
+      css:
+           .menuSection{
+              display: none;
+            }
+           :target{  这里的:target就是指id="brand"的div对象
+              display:block;
+           }
+    */
+
+    /*当你点击链接后，段落p将添加橙色背景和白色文字。*/
+    .menuSection:target > p {
+      background-color: orange;
+      color: #FFF;
+    }
+  </style>
+</head>
+<body>
+<div class="menuSection" id="brand">
+  <h2><a href="#brand">Brand</a></h2>
+  <p>content for Brand</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>结构性伪类选择器last-of-type</title>
+  <style>
+    /*
+        :last-of-type  选择器和“:first-of-type”选择器功能是一样的，不同的是他选择是父元素下的某个类型的最后一个子元素。
+    */
+
+    /*将容器“div.wrapper”中最后一个Div元素背景设置为橙色。*/
+    .wrapper > div:last-of-type {
+      background-color: orange;
+    }
+  </style>
+</head>
+<body>
+<div class="wrapper">
+  <div>我是第一个Div元素</div>
+  <div>我是第二个Div元素</div>
+  <div>我是第三个Div元素</div>
+  <p>我是第一个段落</p>
+  <p>我是第二个段落</p>
+  <p>我是第三个段落</p>
+</div>
+</body>
+</html>

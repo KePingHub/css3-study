@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>:read-only</title>
+  <style>
+    /*
+      :read-only  伪类选择器用来指定处于只读状态元素的样式。简单点理解就是，元素中设置了“readonly=’readonly’”
+    */
+
+    form {
+      width: 300px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      margin: 50px auto;
+    }
+    form > div {
+      margin-bottom: 10px;
+    }
+    input[type="text"]{
+      border: 1px solid orange;
+      padding: 5px;
+      background: #fff;
+      border-radius: 5px;
+    }
+    input[type="text"]:-moz-read-only{
+      border-color: #ccc;
+    }
+    input[type="text"]:read-only{
+      border-color: #ccc;
+    }
+
+    /*设置textarea的只读样式。*/
+    textarea:-moz-read-only{
+      border: 1px solid #ccc;
+      height: 50px;
+      resize: none;
+      background: #eee;
+    }
+    textarea:read-only {
+      border: 1px solid #ccc;
+      height: 50px;
+      resize: none;
+      background: #eee;
+    }
+  </style>
+</head>
+<body>
+<form action="#">
+  <div>
+    <label for="name">姓名:</label>
+    <input type="text" name="name" id="name" placeholder="大漠" />
+  </div>
+  <div>
+    <label for="address">地址:</label>
+    <input type="text" name="address" id="address" placeholder="中国上海" readonly="readonly" />
+  </div>
+  <div>
+    <label for="comment">评论：</label>
+    <textarea name="comment" id="comment" cols="30" rows="10" readonly="readonly"></textarea>
+  </div>
+</form>
+</body>
+</html>

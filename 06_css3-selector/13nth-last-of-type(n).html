@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>nth-last-of-type(n)</title>
+  <style>
+    /*
+      :nth-last-of-type(n)  选择器和“:nth-of-type(n)”选择器是一样的，选择父元素中指定的某种子元素类型，
+                            但它的起始方向是从最后一个子元素开始，而且它的使用方法类似于上节中介绍的
+                            “:nth-last-child(n)”选择器一样。
+    */
+
+    /*将容器“div.wrapper”中倒数第五个Div元素背景设置为橙色。*/
+    .wrapper > div:nth-last-of-type(5) {
+      background-color: orange;
+    }
+  </style>
+</head>
+<body>
+<div class="wrapper">
+  <p>我是第一个段落</p>
+  <p>我是第二个段落</p>
+  <div>我是第一个Div元素</div>
+  <div>我是第二个Div元素</div>
+  <div>我是第三个Div元素</div>
+  <p>我是第三个段落</p>
+  <p>我是第四个段落</p>
+  <p>我是第五个段落</p>
+  <div>我是第四个Div元素</div>
+  <div>我是第五个Div元素</div>
+  <p>我是第六个段落</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>only-child</title>
+  <style>
+    /*
+      :only-child  选择器选择的是父元素中只有一个子元素，而且只有唯一的一个子元素。
+                   也就是说，匹配的元素的父元素中仅有一个子元素，而且是一个唯一的子元素。
+    */
+
+    /*通过“:only-child”选择器，改变只有一个列表项的背景色为橙色。*/
+    li:only-child {
+      background-color: orange;
+    }
+  </style>
+</head>
+<body>
+<ul>
+  <li>Item1</li>
+  <li>Item2</li>
+  <li>Item3</li>
+</ul>
+<ul>
+  <li>Item1</li>
+</ul>
+<ol>
+  <li>Item1</li>
+</ol>
+<ol>
+  <li>Item1</li>
+  <li>Item2</li>
+  <li>Item3</li>
+</ol>
+</body>
+</html>

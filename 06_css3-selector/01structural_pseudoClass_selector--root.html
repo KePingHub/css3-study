@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html class="html" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>结构性伪类选择器</title>
+  <style>
+    :root {
+      background-color: #bbffaa;
+    }
+    /*:root优先级高于元素选择器低于类选择器 所以下面元素选择器的样式不生效 类选择器的生效*/
+    html {
+      background-color: #abc;
+    }
+
+    .html {
+      background-color: red;
+    }
+    /*
+      :root选择器，从字面上我们就可以很清楚的理解是根选择器，
+      他的意思就是匹配元素E所在文档的根元素。在HTML文档中，
+      根元素始终是<html>。
+    */
+  </style>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>:read-write</title>
+  <style>
+    /*
+      :read-write  选择器刚好与“:read-only”选择器相反，主要用来指定当元素处于非只读状态时的样式。
+    */
+
+    /*设置不是只读控件的文本框边框为2px solid red。*/
+    input[type="text"]:read-write {
+      border: 2px solid red;
+    }
+    input[type="text"]:-moz-read-write{
+      border:2px solid red;
+    }
+  </style>
+</head>
+<body>
+  <form action="#">
+    <div>
+      <label for="name">姓名:</label>
+      <input type="text" name="name" id="name" placeholder="大漠" />
+    </div>
+    <div>
+      <label for="address">地址:</label>
+      <input type="text" name="address" id="address" placeholder="中国上海" readonly="readonly" />
+    </div>
+  </form>
+</body>
+</html>

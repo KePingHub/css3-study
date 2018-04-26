@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>结构性伪类选择器—nth-child(n)</title>
+  <style>
+    /*
+      :nth-child(n) 选择器用来定位某个父元素的一个或多个特定的子元素，其中“n”是其参数，而且可以是整数可以是表达式（2n+1, -n+3）和关键字（odd，even）
+      但参数的起始值始终是1，但是n为表达式时 n时从0开始
+
+      li:nth-child(3) 匹配的就是第三个li （从1开始）
+      li:nth-child(0) 将匹配不到元素
+      li:nth-child(odd) 匹配奇数li even则是偶数li
+      li:nth-child(2n+1) 匹配的就是（1，3，5， 7， 9 ...的li） （n从0开始）
+    */
+
+    ol > li {
+      height: 200px;
+    }
+    /*让奇数行背景色变成绿色*/
+    ol > li:nth-child(odd) {
+      background-color: green;
+    }
+  </style>
+</head>
+<body>
+<ol>
+  <li>item1</li>
+  <li>item2</li>
+  <li>item3</li>
+  <li>item4</li>
+  <li>item5</li>
+  <li>item6</li>
+  <li>item7</li>
+  <li>item8</li>
+  <li>item9</li>
+  <li>item10</li>
+</ol>
+</body>
+</html>
