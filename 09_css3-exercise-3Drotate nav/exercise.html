@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>exercise</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    @font-face {
+      font-family: "my font";
+      src: url("../04_css3-font/myfont.otf");
+    }
+    .wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: stretch;
+      margin-top: 50px;
+      position: relative;
+    }
+    .nav-list {
+      list-style: none;
+      display: flex;
+      height: 50px;
+      color: #FFF;
+      font: bold 22px/50px "my font";
+      text-align: center;
+      background-color: #74adaa;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    }
+    .list-item {
+      position: relative;
+      padding: 0 20px;
+      border-right: 1px solid #FFF;
+    }
+    .list-item:last-child {
+      border-right: none;
+    }
+    .child-list {
+      list-style: none;
+      display: none;
+      position: absolute;
+      left: 0;
+      top: 50px;
+      background-color: #74adaa;
+    }
+    .child-item {
+      padding: 0 30px 0 15px;
+      border-bottom: 1px solid #fff;
+    }
+    .child-list > .child-item:last-child {
+      border-bottom: none;
+    }
+
+    .three-d {
+      perspective: 200px;
+      transition: all .07s linear;
+      position: relative;
+    }
+    .three-d:hover .three-d-box {
+      transform: translateZ(-25px) rotateX(90deg);
+    }
+    .three-d-box {
+      transition: all .3s ease-out;
+      transform-style: preserve-3d;
+      pointer-events: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    .front, .back {
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: #74adaa;
+      padding: 15px 30px 15px 31px;
+      color: white;
+      pointer-events: none;
+      box-sizing: border-box;
+    }
+    .front {
+      transform: rotate(0deg) translateZ(25px);
+    }
+    .back {
+      transform: rotateX(90deg) translateZ(25px);
+      color: #FFE7c4;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <ul class="nav-list">
+      <li class="list-item three-d">
+        Home
+        <span class="three-d-box"><span class="front">Home</span><span class="back">Home</span></span>
+        <ul class="child-list">
+          <li class="child-item three-d">Html5</li>
+          <li class="child-item three-d">Css3</li>
+          <li class="child-item three-d">JavaScript</li>
+          <li class="child-item three-d">VideoGames</li>
+        </ul>
+      </li>
+      <li class="list-item three-d">
+        Services
+        <span class="three-d-box"><span class="front">Services</span><span class="back">Services</span></span>
+      </li>
+      <li class="list-item three-d">
+        Products
+        <span class="three-d-box"><span class="front">Products</span><span class="back">Products</span></span>
+      </li>
+      <li class="list-item three-d">
+        About
+        <span class="three-d-box"><span class="front">About</span><span class="back">About</span></span>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

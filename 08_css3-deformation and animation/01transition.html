@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>transition</title>
+  <style>
+    /*
+        CSS3的过度transition属性是一个复合属性，主要包括以下几个子属性：
+        1.transition-property:指定过渡或动态模拟的CSS属性
+            transition-property用来指定过渡动画的CSS属性名称，而这个过渡属性
+            只有具备一个中点值的属性（需要产生动画的属性）才能具备过渡效果
+
+        2.transition-duration:指定完成过渡所需的时间
+
+        3.transition-timing-function:指定过渡函数
+            指的是过渡的“缓动函数”。主要用来指定浏览器的过渡速度，以及过渡期间的操作进展情况.
+            其中要包括以下几种函数：
+            ease: 默认值，速度由快到慢，逐渐变慢
+            linear: 恒速
+            ease-in: 速度越来越快,呈加速(渐显)
+            ease-out: 速度越来越慢，呈减速 （渐隐）
+            ease-in-out: 先加速再减速 (渐显渐隐)
+
+        4.transition-delay:指定开始出现的延迟时间
+            transition-delay属性和transition-duration属性极其类似，不同的是transition-duration
+            是用来设置过渡动画的持续时间，而transition-delay主要用来指定一个动画开始执行的时间，也
+            就是说当改变元素属性值后多长时间开始执行。
+    */
+    /*让容器在hover状态下宽度从200px慢慢过渡到400px。*/
+    /*让容器高度从200px慢慢过渡到400px，并且整个过渡持续1s。*/
+    /*让容器从正方形渐显效果慢慢过渡到圆角。采用悬浮触发过渡动画方式，过渡0.2s后触发，整个过渡时间持续0.5s。*/
+    div {
+      width: 200px;
+      height: 200px;
+      background: red;
+      margin: 20px auto;
+      -webkit-transition-property: width, height, border-radius;
+      transition-property: width, height, border-radius;
+      -webkit-transition-duration:.5s, 1s, .5s;
+      transition-duration:.5s, 1s, .5s;
+      -webkit-transition-timing-function: ease-in, linear, ease-in;
+      transition-timing-function: ease-in, linear, ease-in;
+      -webkit-transition-delay: .18s, 0s, .2s;
+      transition-delay:.18s, 0s, .2s;
+    }
+    div:hover {
+      width: 400px;
+      height: 400px;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+<div></div>
+</body>
+</html>
